@@ -1,0 +1,74 @@
+@mixin padmar {
+    padding: 10px;
+        margin-left: 10px;
+    
+}
+
+section{
+    margin: 25px;
+    display: $disp;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+
+    .imgcard{
+        background-color: $color2;
+        height: 150px;
+        margin-bottom: 14px;
+        background-size: cover;
+        border-radius: $imgbrs; 
+    }
+    
+    .card{
+        background: $color2;
+        width: 300px;
+        height: 670px;
+        margin: 50px;
+        border-radius: $brs;
+        box-shadow: 15px;
+
+    }
+
+    .card h2{
+        margin-left: 9px;
+    }
+
+    .card p{
+        @include padmar();
+    }
+
+    .card a{
+        background-color: $color5;
+        color: $color6;
+        margin: 10px;
+        padding: 15px 5px 20px;
+        border-radius: $brs;
+        display: block;
+        text-align: center;
+    }
+
+    .card:hover{
+        cursor: pointer;
+        transform: scale(1.03);
+        background-color: $hovcol;
+        transition: all 1s ease;
+    }
+    
+}
+
+.car1{
+    background-image: url(https://assets4.domestika.org/course-images/000/018/364/18364-big.gif);
+
+}
+
+.car2{
+    background-image: url(https://images-cdn.newscred.com/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA==);
+}
+
+.car3{
+    background-image: url('https://i.makeagif.com/media/3-15-2015/xBIecm.gif');
+}
+
+.car4{
+    background-image: url(https://lesterbanks.com/lxb_metal/wp-content/uploads/2015/12/gif_dribbble.gif);
+}
