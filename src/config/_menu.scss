@@ -1,0 +1,51 @@
+@mixin menuset {
+    display: block;
+        padding: 15px;
+        color: $color6;
+        text-decoration: none;  
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: $color2;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.menuh{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.menuh > li > a{
+    @include menuset()
+}
+
+.menuh > li:hover{
+    background-color: $color1;
+}
+
+.menuv{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: $color2;
+}
+
+.menuh li:hover .menuv{
+    display: block;
+}
+
+.menuv li:hover{
+    background-color: $color1;
+}
+
+.menuv li a{
+    display: block;
+    color: $color6;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}

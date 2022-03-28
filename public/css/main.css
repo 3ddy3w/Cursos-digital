@@ -1,0 +1,191 @@
+section {
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+section .imgcard {
+  background-color: #24252a;
+  height: 150px;
+  margin-bottom: 14px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+section .card {
+  background: #24252a;
+  width: 300px;
+  height: 670px;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 15px;
+}
+section .card h2 {
+  margin-left: 9px;
+}
+section .card p {
+  padding: 10px;
+  margin-left: 10px;
+}
+section .card a {
+  background-color: #ee7b0f;
+  color: white;
+  margin: 10px;
+  padding: 15px 5px 20px;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+}
+section .card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  background-color: #440846;
+  transition: all 1s ease;
+}
+
+.car1 {
+  background-image: url(https://assets4.domestika.org/course-images/000/018/364/18364-big.gif);
+}
+
+.car2 {
+  background-image: url(https://images-cdn.newscred.com/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA==);
+}
+
+.car3 {
+  background-image: url("https://i.makeagif.com/media/3-15-2015/xBIecm.gif");
+}
+
+.car4 {
+  background-image: url(https://lesterbanks.com/lxb_metal/wp-content/uploads/2015/12/gif_dribbble.gif);
+}
+
+nav {
+  max-width: 900px;
+  margin: auto;
+  background-color: #24252a;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.menuh {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuh > li > a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuh > li:hover {
+  background-color: #129aa7;
+}
+
+.menuv {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: #24252a;
+}
+
+.menuh li:hover .menuv {
+  display: block;
+}
+
+.menuv li:hover {
+  background-color: #129aa7;
+}
+
+.menuv li a {
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #24252a;
+  height: auto;
+  width: auto;
+  font-family: sans-serif;
+  padding-top: 40px;
+  color: white;
+}
+footer .footcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer .footcon h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+footer .footcon p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+footer .socials li {
+  margin: 0 10px;
+}
+footer .socials a {
+  text-decoration: none;
+  color: #129aa7;
+}
+footer .socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+footer .socials a:hover i {
+  color: #129aa7;
+}
+footer .footbot {
+  background-color: #24252a;
+  width: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+footer .footbot p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+footer .footbot span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-size: contain;
+  background-image: url(https://c.tenor.com/S5JPPusvSgUAAAAd/aesthetic-purple.gif);
+  color: #f39010;
+}
+
+header {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
